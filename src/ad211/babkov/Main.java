@@ -61,7 +61,7 @@ public class Main {
     }
 
     public static void wordsInLine (String line){
-        String[] arr = line.split(" ");
+        String[] arr = line.split("\\s+ ");
         for (String s : arr) {
             System.out.println(s);
         }
@@ -77,6 +77,3 @@ public class Main {
         return mixedDone;
     }
 }
-
-
-
